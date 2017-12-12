@@ -3,38 +3,71 @@
 <head>
 	<meta charset="UTF-8">
 	<title>10clouds</title>
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="author" content="Kate">
+	<meta name="keywords" content="10clouds">
+
+	<link rel="stylesheet" href="css/main.css">
+	<link href="https://fonts.googleapis.com/css?family=Rubik" rel="stylesheet">
+	<script src="https://use.fontawesome.com/36f9002e10.js"></script>
 </head>
 <body>
 	<div class="desktop-form">
-		<h1>Your account</h1>
-		<div class="left-side">
-			
-		</div>
-		<div class="right-side">
-			<p>Take it all with you. Switch between devices, and pick up.</p>
-			<form action="" method="POST">
-				<label for="login">Your name</label><input id="login" type="text" name="login">
+		
+		<div class="content">
+			<h1>Your account</h1>
+			<div class="left-side">
+				
+			</div>
+			<div class="right-side">
+				<p>Take it all with you. Switch between devices, and pick up.
+				</p>
+				<form action="" method="POST">
 
-				<label for="tel">Mobile</label>
-				<select name="tel-code" id="tel-code">
-					<option selected="true" disabled="disabled"></option>
-					<option value="+48(PL)">+48(PL)</option>
-				</select>
-				<input id="tel" type="text" name="tel">
+					<div class="form">
+					<label for="login">Your name
+					<input id="login" type="text" name="login">
+					</label>
+					</div>
 
-				<label for="gender" id="gender">Gender</label>
-				<input type="radio" name="gender">
-				<input type="radio" name="gender">
+					<div class="form">
+					<label for="tel">Mobile
+					<select name="tel-code" id="tel-code">
+						<option selected="true" disabled="disabled"></option>
+						<option value="+48(PL)">+48(PL)</option>
+					</select>
+					<input id="tel" type="text" name="tel">
+					</label>
+					</div>
 
-				<label for="birth" id="birth">Date of Birth</label>
-				<input type="text" name="day">
-				<input type="text" name="month">
-				<input type="text" name="year">
+					<div class="form">
+					<label for="gender" id="gender">Gender</label>
+					<label><input id="radio" type="radio" name="gender">
+						<i class="fa fa-venus" aria-hidden="true"></i>
+						<span class="span"></span></label>
+					<label class="no"><input id="radio" type="radio" name="gender"><i class="fa fa-mars" aria-hidden="true"></i>
+					</label>
+					</div>
 
-				<button type="submit">CONTINUE</button>
-			</form>
 
+					<div class="form">
+					<label for="birth" id="birth">Date of Birth
+					<input id="day" type="text" name="day">
+					<input id="month" type="text" name="month">
+					<input id="year" type="text" name="year">
+					</label>
+					</div>
+
+					<button type="submit">CONTINUE</button>
+				</form>
+
+			</div>
 		</div>
 	</div>
+
+
+
+
 </body>
 </html>
