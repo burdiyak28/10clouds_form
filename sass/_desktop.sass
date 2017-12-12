@@ -1,0 +1,82 @@
+.desktop-form
+	display: flex
+	justify-content: center
+	align-items: center
+	flex-wrap: wrap
+	background-color: black
+	height: auto
+	min-height: 100vh
+
+	
+
+
+	.content
+		display: flex
+		width: 60%
+		flex-wrap: wrap
+
+		h1
+			color: white
+			flex-basis: 100%
+
+
+		.left-side
+			margin-right: 0
+			flex-basis: 35%
+			background-color: red
+
+
+
+
+		.right-side
+			
+			flex-basis: 65%
+			background-color: white
+
+			p
+				padding: 50px 50px 50px 60px
+
+
+			form
+				padding: 0px 50px 75px 60px
+
+				label
+					padding: 5px 5px 5px 10px
+					color: #d6d6dd
+				#login
+					width: 100%
+
+				#radio
+					width: $gender-width
+					height: $gender-height
+					display: none
+					+ .fa-venus
+						border: 1px solid red
+						padding: 5px
+						+ .span::before
+							content: ""
+							font-size: 8px
+							border: 1px solid green
+							padding: 0 3px
+							
+						+ .span::after
+							border: 1px solid blue
+							content: ""
+							font-size: 1px
+							height: 0
+
+
+						
+
+				
+				#day
+					width: $gender-width
+					height: $gender-height
+
+
+
+			
+			
+
+
+		
